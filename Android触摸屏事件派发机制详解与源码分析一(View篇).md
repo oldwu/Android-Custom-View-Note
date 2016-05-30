@@ -2,7 +2,7 @@
 
 
 ## 1. onTouch和onClick
-
+当onTouch返回true的时候，onClick无效
 
 ## 2. View触摸屏事件传递小结
 * 触摸控件（View）首先执行dispatchTouchEvent方法。
