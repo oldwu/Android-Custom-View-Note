@@ -27,4 +27,8 @@ public boolean onTouchEvent(MotionEvent event) {
 
 当onTouchEvent返回false时，当前view会阻止继续派发其他事件
 
+如图所示
+
+![test] (https://github.com/oldwu/Android-Custom-View-Note/blob/master/1.png)
+
 ## 3. dis
