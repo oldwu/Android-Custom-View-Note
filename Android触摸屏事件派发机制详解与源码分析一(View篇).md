@@ -33,7 +33,7 @@ public boolean onTouchEvent(MotionEvent event) {
 
 
 ### 1. dispatchTouchEvent:true  onTouchEvent:false
-!(https://github.com/oldwu/Android-Custom-View-Note/blob/master/1.png)
+!(https://github.com/oldwu/Android-Custom-View-Note/blob/master/png/1.png)
 ### 2. dispatchTouchEvent:false onTouchEvent:true
-!(https://github.com/oldwu/Android-Custom-View-Note/blob/master/2.png)
+!(https://github.com/oldwu/Android-Custom-View-Note/blob/master/png/2.png)
 
