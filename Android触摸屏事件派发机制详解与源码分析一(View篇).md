@@ -30,6 +30,8 @@ public boolean dispatchTouchEvent(MotionEvent event) {
 public boolean onTouchEvent(MotionEvent event) {
     Log.i(null, "onTouchEvent-- action=" + event.getAction());
     super.onTouchEvent(event);
+    return true;
+}
 ```
 
 
