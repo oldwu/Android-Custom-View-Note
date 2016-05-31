@@ -1,6 +1,5 @@
 # View的触摸屏传递机制小结
 
-
 ## 1. onTouch和onClick
 当onTouch返回true的时候，onClick无效
 
