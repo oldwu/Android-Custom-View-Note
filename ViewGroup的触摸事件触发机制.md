@@ -32,3 +32,8 @@
 | ------------- |-------------  | :-----:            |
 | true          | 事件被消费     | !null              |
 | false         | 事件未被消费   | null               |
+
+##ViewGroup触摸事件传递总结
+1. Android事件派发是先传递到最顶级的ViewGroup，再由ViewGroup递归传递到View的。
+2. 在ViewGroup中可以通过onInterceptTouchEvent方法对事件传递进行拦截，onInterceptTouchEvent方法返回true代表不允许事件继续向子View传递，返回false代表不对事件进行拦截，默认返回false。
+3. 子View中如果将传递的事件消费掉，ViewGroup中将无法接收到任何事件。
