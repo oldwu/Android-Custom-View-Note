@@ -11,6 +11,13 @@
 ## onInterceptTouchEvent
 该方法ViewGroup独有，只返回了false，拦截事件
 
+代码如下：
+```java
+    public boolean onInterceptTouchEvent(MotionEvent ev) {
+        return false;
+    }
+```
+
 ## dispatchTransformedTouchEvent
 * 在dispatchTouchEvent()中调用dispatchTransformedTouchEvent()将事件分发给子View处理
 * 该方法中第三个参数为的View child
